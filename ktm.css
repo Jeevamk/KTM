@@ -56,18 +56,7 @@
 } 
 .navitem1 a:hover{
     color: orangered;
-}
-.navitem1 li:after{
-    content: '';
-    margin: auto;
-    display: inline;
-    height: 2px;
-    width: 0%;
-    transition: all 0.5s ease-in-out;
-}
-.navitem1 li:hover:after{
-    width: 100%;
-    background-color: #ff6600;
+    text-decoration: underline;
 }
 .btn1{
     background-color: #ff6600;
